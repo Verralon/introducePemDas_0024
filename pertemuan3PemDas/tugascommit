@@ -7,5 +7,5 @@ int tambah (int a, int b)
 }
 
 int main(){
-    
+    int angka1, angka2;
 }
