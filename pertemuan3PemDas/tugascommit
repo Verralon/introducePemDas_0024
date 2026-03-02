@@ -8,4 +8,7 @@ int tambah (int a, int b)
 
 int main(){
     int angka1, angka2;
+
+    cout << "Masukkan angka pertama : ";
+    cin >> angka1;
 }
