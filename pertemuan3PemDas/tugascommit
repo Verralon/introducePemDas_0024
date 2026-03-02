@@ -17,4 +17,6 @@ int main(){
     int hasil = tambah(angka1, angka2);
 
     cout << "Hasil penjumlahan : " << hasil << endl;
+
+    return 0;
 }
