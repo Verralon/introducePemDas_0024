@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+void hitungLuas(float r){
+    cout << "luas lingkaran = " << 3.14159 * r * r;
+}
+
+int main (){
+    float r;
+    cin >> r;
+    hitungLuas (r);
+}
