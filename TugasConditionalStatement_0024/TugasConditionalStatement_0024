@@ -2,3 +2,10 @@
 using namespace std;
 
 float berat, tinggi;
+void input() 
+{
+    cout << "Masukkan berat badan (kg): ";
+    cin >> berat;
+    cout << "Masukkan tinggi badan (meter): ";
+    cin >> tinggi;
+}
