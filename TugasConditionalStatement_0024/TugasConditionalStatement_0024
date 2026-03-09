@@ -13,3 +13,14 @@ void input()
     {
         return b / (t * t);
     }
+    string StatusBMI(float bmi)
+    {
+        if (bmi < 18.5) 
+            return "Kekurangan Berat Badan";
+        else if (bmi >= 18.5 && bmi < 25) 
+            return "Normal (Ideal)";
+        else if (bmi >= 25 && bmi < 30) 
+            return "Kelebihan Berat Badan";
+        else 
+            return "Obesitas";
+    }
