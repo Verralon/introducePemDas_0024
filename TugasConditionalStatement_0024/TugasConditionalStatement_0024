@@ -24,3 +24,10 @@ void input()
         else 
             return "Obesitas";
     }
+int main()
+{
+    input();
+    float bmi = HitungBMI(berat, tinggi);
+    cout << "BMI Anda : " << bmi << endl;
+    cout << "Status : " << StatusBMI(bmi) << endl;
+}
