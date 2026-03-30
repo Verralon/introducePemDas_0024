@@ -34,3 +34,7 @@ void pilihanJurusan(){
         statusKuota="Error: Kode Tidak Valid";
     }
 }
+
+void output(){
+
+}
