@@ -14,3 +14,7 @@ void input(){
     cout<<"Masukkan kode jurusan (1-3): ";
     cin>>kodeJurusan;
 }
+
+void pilihanJurusan(){
+
+}
