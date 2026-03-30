@@ -16,5 +16,7 @@ void input(){
 }
 
 void pilihanJurusan(){
-
+    switch (kodeJurusan){
+        
+    }
 }
