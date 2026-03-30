@@ -29,5 +29,8 @@ void pilihanJurusan(){
         namaJurusan="Sistem Informasi";
         statusKuota="Tersedia (5 Kursi)";
         break;
+        default:
+        namaJurusan="Tidak Diketahui";
+        statusKuota="Error: Kode Tidak Valid";
     }
 }
