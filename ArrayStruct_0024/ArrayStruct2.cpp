@@ -7,3 +7,9 @@ struct mahasiswa
     string alamat;
     int umur;
 };
+
+int main()
+{
+    //deklarasi variabel struct
+    mahasiswa mhs;
+}
