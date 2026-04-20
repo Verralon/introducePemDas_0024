@@ -16,3 +16,7 @@ class Barang{
         cout << "TanggalProduksi" << tanggalProduksi << endl;
     }
 };
+
+int main(){
+
+}
