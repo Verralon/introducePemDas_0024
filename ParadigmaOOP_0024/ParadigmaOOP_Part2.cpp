@@ -31,4 +31,5 @@ int main(){
     nonElektronik.tanggalProduksi = 20/04/2026;
 
     elektronik.printData();
+    nonElektronik.printData();
 }
