@@ -8,4 +8,11 @@ class Barang{
         float jumlah;
         string kategori;
         float tanggalProduksi;
-}
+    void printData()
+    {
+        cout << "Nama: " << nama << endl;
+        cout << "Jumlah: " << jumlah << endl;
+        cout << "Kategori: " << kategori << endl;
+        cout << "TanggalProduksi" << tanggalProduksi << endl;
+    }
+};
