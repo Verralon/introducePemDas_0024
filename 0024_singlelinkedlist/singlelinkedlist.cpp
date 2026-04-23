@@ -9,6 +9,9 @@ public:
     node *next;
 };
 
+class LinkedList
+{
+    node *START;
 public:
     LinkedList()
     {
@@ -126,3 +129,55 @@ int main()
 
         cout << "\nMasukkan pilihan (1-5) : ";
         cin >> ch;
+    
+     switch (ch)
+        {
+            case '1':
+                mhs.addNode();
+                break;
+            
+            case '2':
+                if (mhs.listEmpty())
+                {
+                    cout << "\nList Kosong" << endl;
+                    break;
+                }
+
+                cout << "\nMasukkan no mahasiswa yang akan dihapus : ";
+                cin >> nim;
+
+                if (mhs.delNode(nim))
+                    cout << "\n Data tidak ditemukan" << endl;
+                else
+                    cout << "\nData dengan nomor mahasiswa " << nim << " berhasil dihapus\n" << endl;
+                break;
+            case '3':
+                mhs.traverse();
+                break;
+            
+            case '4':
+
+                if(mhs.listEmpty())
+                {
+                    cout << "\nList Kosong" << endl;
+                    break;
+                }
+
+                node *previous, *current;
+                {
+                    cout << "\nData tidak ditemukan" << endl;
+                    cout << "NIM Mahasiswa : ";
+                }
+                break;
+            
+
+                case '5':
+                break;
+
+            default:
+                cout << "\nPilihan salah!\n";
+        }
+    } while (ch != '5');
+    
+    return 0;
+}
