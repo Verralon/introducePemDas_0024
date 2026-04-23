@@ -8,3 +8,9 @@ public:
     int noMhs;
     node *next;
 };
+
+public:
+    LinkedList()
+    {
+        START = NULL;
+    }
